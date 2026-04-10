@@ -1,4 +1,4 @@
-# AI Python DSA Journey 🚀
+# AI Journey 🚀
 ## Structure
 phase1_python/
 - fundamentals/
