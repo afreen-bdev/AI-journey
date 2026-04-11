@@ -149,3 +149,76 @@ while → condition-based
 - Loops help automate tasks
 - Avoid infinite loops
 - Use break/continue carefully
+
+# Lists & Tuples
+
+## 1. What are Data Structures?
+They store and organize data.
+
+---
+
+## 2. List
+
+A list is:
+- Ordered
+- Mutable (can change)
+- Allows duplicates
+
+Example:
+numbers = [1, 2, 3]
+
+---
+
+## 3. List Operations
+
+Access:
+numbers[0]
+
+Add:
+append(), insert()
+
+Remove:
+remove(), pop()
+
+---
+
+## 4. Tuple
+
+A tuple is:
+- Ordered
+- Immutable (cannot change)
+
+Example:
+coords = (10, 20)
+
+---
+
+## 5. List vs Tuple
+
+| Feature | List | Tuple |
+|--------|------|------|
+| Mutable | Yes | No |
+| Speed | Slower | Faster |
+| Use | Dynamic data | Fixed data |
+
+---
+
+## 6. Slicing
+
+numbers = [1,2,3,4]
+numbers[1:3] → [2,3]
+
+---
+
+## 7. Iterating
+
+for item in list:
+    print(item)
+
+---
+
+## Key Takeaways
+
+- Lists are most used in real-world
+- Tuples are used for fixed data
+- Base for ML datasets
