@@ -5,6 +5,5 @@ class Playlist:
     def __len__(self):
         return len(self.songs)
 
-
 p = Playlist(["song1", "song2", "song3"])
 print("Total songs:", len(p))
