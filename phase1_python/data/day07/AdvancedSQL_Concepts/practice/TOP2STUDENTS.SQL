@@ -1,4 +1,0 @@
-SELECT name, marks
-FROM students
-ORDER BY marks DESC
-LIMIT 2;
