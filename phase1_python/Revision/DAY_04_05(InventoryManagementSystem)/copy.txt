@@ -1,3 +1,0 @@
-Hello, this is python file handling
-Second line
-appended line

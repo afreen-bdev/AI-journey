@@ -1,11 +1,4 @@
 {
-    "python-envs.pythonProjects": [
-        {
-            "path": "phase1_python/fundamentals/day01_variables_datatypes",
-            "envManager": "ms-python.python:venv",
-            "packageManager": "ms-python.python:pip"
-        }
-    ],
     "sqltools.connections": [
         {
             "mysqlOptions": {
