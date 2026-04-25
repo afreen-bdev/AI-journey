@@ -15,5 +15,6 @@
             "database": "practice_AIML",
             "password": ""
         }
-    ]
+    ],
+    "git.ignoreLimitWarning": true
 }
