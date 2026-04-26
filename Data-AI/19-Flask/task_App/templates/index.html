@@ -1,0 +1,22 @@
+<h1>Smart Task Dashboard</h1>
+
+<a href="/add">Add Task</a>
+
+<ul>
+    {% for task in tasks %}
+        <li>
+            {{ task.title }} -
+
+            {% if task.priority == "High" %}
+                <span style="color:red;">High 🔥</span>
+            {% elif task.priority == "Medium" %}
+                <span style="color:orange;">Medium ⚡</span>
+            {% else %}
+                <span style="color:green;">Low ✅</span>
+            {% endif %}
+
+            | <a href="/update/{{ task.id }}">Update</a>
+            | <a href="/delete/{{ task.id }}">Delete</a>
+        </li>
+    {% endfor %}
+</ul>
