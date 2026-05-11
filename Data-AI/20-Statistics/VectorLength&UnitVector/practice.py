@@ -4,7 +4,7 @@ from cosine_similarity import cosine_similarity
 
 # Problem 1
 v1 = np.array([3, 4])
-print("P1 Length:", vector_length(v1))  # Expected: 5
+print("P1 Length:", vector_length(v1)) 
 
 # Problem 2
 v2 = np.array([1, 2, 2])
